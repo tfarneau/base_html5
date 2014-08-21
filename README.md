@@ -4,15 +4,10 @@ Base to kickstart new projects. Using gulp and inspired by BEM structure.
 
 ## How to use
 
-Install the node packages
-* `npm install`
-Run the install command to create the dist/ folder
-* `gulp install`
-Run GULP
-* `gulp`
+* `npm install` to install the npm packages
+* `gulp install` to create the dist/ folder
+* `gulp` to launch gulp default task
 
-Compile vendor files with :
-* `gulp install`
+* `gulp install` to compile JS vendor files
 
-Optimize images with : 
-* `gulp images`
+* `gulp images` to optimize images
