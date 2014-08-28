@@ -10,6 +10,4 @@ Base to kickstart new projects. Using gulp and inspired by BEM structure.
 
 * `gulp` to launch gulp default task
 
-* `gulp install` to compile JS vendor files
-
 * `gulp images` to optimize images
