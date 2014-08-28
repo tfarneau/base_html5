@@ -38,7 +38,6 @@ Gulp is used to :
 - Minify and prefix CSS
 - Uglify, minify and concatenate JS
 - Optimize images with image-min
-
 - Create a LiveReload Server
 - Give JS and HTML hints
 - Give files sizes
