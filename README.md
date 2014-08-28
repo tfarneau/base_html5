@@ -2,7 +2,7 @@
 
 Base to kickstart new projects. Using gulp and inspired by BEM structure.
 
-### Structure
+### Files structure
 
 Uses BEM structure. Jade and LESS files are organized by elements with blocks inside.
 
@@ -10,23 +10,25 @@ Uses BEM structure. Jade and LESS files are organized by elements with blocks in
 	- css
 	- img
 	- js
-	- [...].html
+	- _home.html_
 - src
 	- img
-	-js
+	- js
+		- _app.js_
 		- vendor
+			- _jquery.min.js_
 	- jade
 		- element
-			- element.jade
+			- _element.jade_
 			- blocks
-				- block1.jade
-				- block2.jade
+				- _block1.jade_
+				- _block2.jade_
 	- less
 		- element
-			- element.less
+			- _element.less_
 			- blocks
-				- block1.less
-				- block2.less
+				- _block1.less_
+				- _block2.less_
 
 ### Gulp
 
