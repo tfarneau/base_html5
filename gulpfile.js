@@ -95,7 +95,7 @@ gulp.task('vendor', function() {
 // OPTIMIZE IMAGES
 gulp.task('images', function() {
 
-    gulp.src(['src/**/*.png','src/**/*.jpg','src/**/*.gif','src/**/*.jpeg'])
+    gulp.src(['src/img/*.png','src/img/*.jpg','src/img/*.gif','src/img/*.jpeg'])
         .pipe(imagemin())
         .pipe(gulp.dest('dist/img'));
 
